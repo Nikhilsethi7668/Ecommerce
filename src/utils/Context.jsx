@@ -4,8 +4,7 @@ import React, { createContext, useEffect, useState } from 'react'
 export const productcontext = createContext();
 
 const Context = (props) => {
-    // now we are using local storage instead of api so that new product can be added in the data
-    // const [product, setproduct] = useState(JSON.parse(localStorage.getItem('products')) || null);
+  
     const [product, setproduct] = useState()
     const getproducts = async () => {
         try {
