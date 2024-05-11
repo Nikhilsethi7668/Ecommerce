@@ -14,12 +14,6 @@ const Create = () => {
     const Navigate = useNavigate();
 
 
-    // console.log(title, category, price, image, description);
-
-
-    //Now we need to save this product data into the old  data but since we are using an API we cant add data in the api used  it will addded only temporarly if we refresh the site new data will be lost so for that reason we will not use api for performing creation ,, 
-
-    // So we will now save the data of api into the local storage provided by browser then we will save that data into the product and will add and delete by using the same 
 
     const addProductHandler = (e) => {
         e.preventDefault();
